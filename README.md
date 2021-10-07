@@ -6,7 +6,7 @@ This is just a test
 
 ```
 module "my_ec2_instance" {
-  source                  = "https://github.com/JeremyYonathanC/terraform_test"
+  source                  = "https://github.com/JeremyYonathanC/terraform_test.git"
   ec2_instance_ami_id     = <Your instance ami id>
   ec2_instance_type       = "t3.micro"
   ec2_instance_name       = "sample"
